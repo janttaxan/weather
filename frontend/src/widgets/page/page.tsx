@@ -2,12 +2,12 @@ import styles from './page.module.css';
 
 import { ReactElement } from 'react';
 
-import { CommonContext } from 'app-layers/common-context/types';
+import { CommonPageContext } from 'app-layers/common-context/types';
 
 import { Header } from 'widgets/page/header';
 
 interface PageProps {
-  context: CommonContext;
+  context: CommonPageContext;
   children: ReactElement;
 }
 

@@ -14,11 +14,11 @@ export class APIService<
   Params = Record<string, unknown>
 > {
   host: string;
-  accessToken: string;
+  accessToken: Optional<string>;
 
-  constructor(host: string, token?: string) {
+  constructor(host: string, accessToken: Optional<string> = null) {
     this.host = host;
-    this.accessToken = token;
+    this.accessToken = accessToken;
   }
 
   protected constructURL(path: string): string {
@@ -41,7 +41,7 @@ export class APIService<
     } = { 'Content-Type': 'application/json', ...options.customHeaders };
 
     if (this.accessToken) {
-      headers['X-Access-Token'] = this.accessToken;
+      headers['X-Gismeteo-Token'] = this.accessToken;
     }
 
     const config: AxiosRequestConfig = {

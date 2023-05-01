@@ -1,8 +1,8 @@
-export interface CommonContext {
+export interface CommonPageContext {
   user: null;
 }
 
 export interface CommonContextType {
-  context: CommonContext;
-  setContext: (context: CommonContext) => void;
+  context: Optional<CommonPageContext>;
+  setContext: (context: CommonPageContext) => void;
 }
