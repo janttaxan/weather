@@ -1,10 +1,3 @@
-import { Button } from 'shared/ui/button';
+import { HomePage } from 'pages-layers/home';
 
-export default function Home() {
-  return (
-    <div>
-      init project
-      <Button text='button' />
-    </div>
-  );
-}
+export default HomePage;

@@ -1,0 +1,73 @@
+@import 'shared/variables.css';
+
+*,
+*::before,
+*::after
+ {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#__next {
+  max-width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $font;
+  background-color: rgb($colorBlack);
+  color: rgb($colorWhite);
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+fieldset,
+form,
+input,
+label,
+legend,
+optgroup,
+option,
+output,
+select,
+textarea {
+  font-family: inherit;
+  color: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+ol,
+ul,
+li {
+  padding: 0;
+}
+
+code,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

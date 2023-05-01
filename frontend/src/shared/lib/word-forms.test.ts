@@ -1,4 +1,4 @@
-import { WordForms } from 'shared/utils';
+import { WordForms } from 'shared/lib';
 
 describe('word-forms', () => {
   it('should choose plural', () => {

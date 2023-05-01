@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page render children 1`] = `
+<div>
+  <div
+    class="root"
+  >
+    <header
+      class="root"
+    >
+      <div
+        class="root"
+      >
+        <input
+          class="input"
+          placeholder="Поиск"
+          type="text"
+        />
+      </div>
+      <div>
+        navigation
+      </div>
+    </header>
+    <main
+      class="main"
+    >
+      <div
+        data-testid="child"
+      >
+        <h1>
+          Heading
+        </h1>
+      </div>
+    </main>
+    <footer
+      class="footer"
+    >
+      footer
+    </footer>
+  </div>
+</div>
+`;

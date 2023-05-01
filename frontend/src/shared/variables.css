@@ -1,0 +1,11 @@
+$font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$colorBlack: 30, 37, 47;
+$colorLightBlack: 38, 46, 59;
+$colorWhite: 255, 255, 255;
+$colorLightWhite: 111, 119, 132;
+$colorBorder: 65, 71, 85;
+
+$maxWidthContent: 1200px;
+
+$breakpointSmall: 576px;

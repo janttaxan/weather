@@ -2,7 +2,11 @@ import styles from './button.module.css';
 
 import classNames from 'classnames';
 
-import { ButtonProps } from 'shared/ui/button/types';
+interface ButtonProps {
+  className?: string;
+  text: string;
+  onClick?: () => void;
+}
 
 export const Button = (props: ButtonProps) => {
   return (
